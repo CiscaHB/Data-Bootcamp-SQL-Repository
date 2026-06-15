@@ -19,9 +19,6 @@ FROM products
 WHERE price > 50
 ORDER BY price DESC;
 ````
-
- [\[Week 3 Dat...QLWorkbook \| Word\]](https://b2wcompletetraining057-my.sharepoint.com/personal/ciscahuman_bootcamp_leepgroup_com/_layouts/15/Doc.aspx?sourcedoc=%7BA75CCA6B-6F74-4E92-99AB-78B4A8DC38F5%7D&file=Week%203%20Databases%20and%20MySQLWorkbook.docx&action=default&mobileredirect=true)
-
 ***
 
 ### 📊 Aggregation & Data Summarisation
@@ -40,9 +37,6 @@ FROM products p
 JOIN categories c ON p.CategoryID = c.CategoryID
 GROUP BY c.CategoryName;
 ```
-
- [\[Week 3 Dat...QLWorkbook \| Word\]](https://b2wcompletetraining057-my.sharepoint.com/personal/ciscahuman_bootcamp_leepgroup_com/_layouts/15/Doc.aspx?sourcedoc=%7BA75CCA6B-6F74-4E92-99AB-78B4A8DC38F5%7D&file=Week%203%20Databases%20and%20MySQLWorkbook.docx&action=default&mobileredirect=true)
-
 ***
 
 ### 🔗 Working with Relationships (JOINs)
@@ -63,9 +57,6 @@ FROM orders o
 JOIN customers c ON o.customerID = c.customerID
 JOIN employees e ON o.employeeID = e.employeeID;
 ```
-
- [\[Week 3 Dat...QLWorkbook \| Word\]](https://b2wcompletetraining057-my.sharepoint.com/personal/ciscahuman_bootcamp_leepgroup_com/_layouts/15/Doc.aspx?sourcedoc=%7BA75CCA6B-6F74-4E92-99AB-78B4A8DC38F5%7D&file=Week%203%20Databases%20and%20MySQLWorkbook.docx&action=default&mobileredirect=true)
-
 ***
 
 ## 📈 Business Insights & Use Cases
@@ -88,8 +79,7 @@ Using SQL, the project explored practical retail and sales scenarios, including:
 * 🌍 **Data Exploration**
   * Querying large datasets to identify patterns (e.g., population and geographic analysis in global datasets)
 
-These tasks demonstrate how SQL can be used to transform raw data into **actionable business insights**. [\[Week 3 Dat...QLWorkbook \| Word\]](https://b2wcompletetraining057-my.sharepoint.com/personal/ciscahuman_bootcamp_leepgroup_com/_layouts/15/Doc.aspx?sourcedoc=%7BA75CCA6B-6F74-4E92-99AB-78B4A8DC38F5%7D&file=Week%203%20Databases%20and%20MySQLWorkbook.docx&action=default&mobileredirect=true)
-
+These tasks demonstrate how SQL can be used to transform raw data into **actionable business insights**. 
 ***
 
 ## 🧠 What I Learned
